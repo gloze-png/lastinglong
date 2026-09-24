@@ -1,9 +1,12 @@
+import Hero from '@/components/landing/hero'
+import Navbar from '@/components/landing/nav'
 import React from 'react'
 
 const Page =() =>{
   return (
-    <main className=''>
-      Page
+    <main className="w-full flex flex-col relative z-10">
+      <Navbar/>
+      <Hero />
     </main>
   )
 }
