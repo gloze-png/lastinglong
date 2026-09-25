@@ -24,7 +24,7 @@ const Hero = () => {
 
           <span className="text-zinc-500">
             Powered by AI
-          </span>
+          </span> 
         </h1>
 
         {/* Description */}
@@ -58,7 +58,7 @@ const Hero = () => {
         <div className="relative overflow-hidden rounded-2xl bg-black p-1 shadow-2xl ring-1 ring-white/10 md:p-2">
 
           {/* Chat Window */}
-          <div className="flex h-[500px] w-full flex-col overflow-hidden rounded-xl bg-black md:h-[600px]">
+          <div className="flex h-125 w-full flex-col overflow-hidden rounded-xl bg-black md:h-150">
 
             {/* Chat Header */}
             <div className="flex h-14 shrink-0 items-center justify-between border-b border-white/5 bg-black px-6">
@@ -115,7 +115,7 @@ const Hero = () => {
 
                 <div className="max-w-[75%]">
 
-                  <div className="rounded-2xl rounded-tl-md border border-white/5 bg-white/[0.04] px-4 py-3">
+                  <div className="rounded-2xl rounded-tl-md border border-white/5 bg-white/4 px-4 py-3">
                     <p className="text-sm leading-relaxed text-zinc-300">
                       Of course! I can help with that.
                     </p>
@@ -150,7 +150,7 @@ const Hero = () => {
                   size={36}
                 />
 
-                <div className="max-w-[75%] rounded-2xl rounded-tl-md border border-white/5 bg-white/[0.04] px-4 py-3">
+                <div className="max-w-[75%] rounded-2xl rounded-tl-md border border-white/5 bg-white/4 px-4 py-3">
                   <p className="text-sm leading-relaxed text-zinc-300">
                     No additional charge will be made after cancellation.
                     You&apos;ll simply retain access until your current
