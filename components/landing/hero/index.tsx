@@ -164,7 +164,7 @@ const Hero = () => {
 
             {/* Chat Input */}
             <div className="shrink-0 border-t border-white/5 bg-black p-4">
-              <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3">
+              <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/3 px-4 py-3">
                 <input
                   type="text"
                   placeholder="Ask Intellinx anything..."
