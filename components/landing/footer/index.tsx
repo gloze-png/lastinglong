@@ -59,6 +59,9 @@ export const LinkedinIcon = ({ className }: IconProps) => (
   </svg>
 );
 
+
+
+
 // Exportable Social Links
 export const socialLinks = [
   {
