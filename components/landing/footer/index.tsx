@@ -121,7 +121,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`Intellinx on ${social.name}`}
-                    className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/8 bg-white/2 text-zinc-500 transition-all duration-300 hover:border-white/[0.15] hover:bg-white/[0.05] hover:text-white"
+                    className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/8 bg-white/2 text-zinc-500 transition-all duration-300 hover:border-white/15 hover:bg-white/5 hover:text-white"
                   >
                     <Icon className="h-4 w-4" />
                   </a>
