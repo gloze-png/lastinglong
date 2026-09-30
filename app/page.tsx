@@ -1,3 +1,4 @@
+import EarlyAccessForm from '@/components/EarlyAccessForm'
 import FinalCTA from '@/components/landing/cta'
 import FAQ from '@/components/landing/faq'
 import Features from '@/components/landing/features'
@@ -13,6 +14,7 @@ const Page =() =>{
     <main className="w-full flex flex-col relative z-10">
       <Navbar/>
       <Hero />
+      <EarlyAccessForm/>
       <Features/>
       <Integration/>
       <Pricing/>
